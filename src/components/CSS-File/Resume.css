@@ -1,0 +1,16 @@
+.yellow-line1 {
+  width: 3px;
+  background-color: #F5DF4E;
+  height: 865px; /* default for small */
+}
+.yellow-line2 {
+  width: 3px;
+  background-color: #F5DF4E;
+  height: 495px; /* default for small */
+}
+
+@media (min-width: 768px) {
+  .yellow-line {
+    height: 750px; /* for md and above */
+  }
+}

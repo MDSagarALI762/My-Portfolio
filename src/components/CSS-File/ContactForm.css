@@ -1,0 +1,17 @@
+.form-wrapper {
+  background-color: #F5DF4E;
+  min-height: 100vh;
+}
+
+.custom-input {
+  background-color: #F5DF4E;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-input.light-border {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
